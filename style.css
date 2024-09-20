@@ -37,3 +37,22 @@ body {
 .image > img {
     width: 50%;
 }
+body {
+    background-color: #e9e3a8;
+}
+
+.Hobbybild {
+    width: 40%;
+}
+
+.Hobbys {
+    background-color: #e9e3a8;
+}
+
+.Zukunft {
+    background-color: #e9e3a8;
+}
+
+.round-img {
+    border-radius: 25px;
+}
