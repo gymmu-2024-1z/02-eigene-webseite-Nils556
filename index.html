@@ -16,9 +16,19 @@
             <!-- Im header wird der Kopf der Webseite angegeben.
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
-            <h1>Webseite von ...</h1>
+            <h1>Webseite von Nils Gilgen</h1>
         </header>
+       
 
+        <svg width="200" height="200">
+            <ellipse cx="100" cy="100" rx="50" ry="50" fill="yellow" stroke="black" stroke-width="5">
+                <animate attributeName="ry" values="50;25;50" dur="1s" repeatCount="indefinite"/>
+            </ellipse>
+            <path d="M 100 70 Q 140 100 100 130 Q 60 100 100 70" fill="transparent" stroke="blue" stroke-width="5"/>
+            <path d="M 50 100 Q 100 130 150 100 Q 100 75 50 100" fill="transparent" stroke="blue" stroke-width="5"/>
+           
+          </svg>
+          
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
             denen man auf Unterwebseiten kommt. 
@@ -27,60 +37,67 @@
 
             <ul>
                 <li>
-                    <a href="./pages/hobbies.html">Hobbies</a>
+                    <a href="./pages/Hobbys.html">Hobbys</a>
+                </li>
+                <li>
+                    <a href="./pages/Zukunft.html">Zukunft</a>
                 </li>
             </ul>
         </nav>
-
+       
         <main>
             <!-- Im Hauptelement der Webseite kommt der ganze Inhalt den wir
             anzeigen möchten. Dieser ist meistens in Section-Elemente
             unterteilt. -->
 
             <section>
+
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
                 Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
                 verwendet man das p-Element. -->
-                <h2>Erster Abschnitt</h2>
+                <h2>Wer bin ich?</h2>
                 <p>
                     <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-                    itaque eaque vel necessitatibus amet consectetur corrupti
-                    repudiandae ipsam aliquam sint.
+                    Mein Name ist Nils, ich bin 16 Jahre alt und seit den Sommerferien am Gymnasium Muttenz. 
+                    Ich habe den Schwerpunkt BG gewählt, weil ich sehr gerne zeichne. Seit der Primarschule
+                    wohne ich hier in Muttenz mit meiner Mutter und meiner Schwester. Mein Vater wohnt in Basel.
+                    Wir zogen vom Gundeli in Basel nach Muttenz. 
                 </p>
+                <h2>Musik</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    natus magni non cumque voluptatum similique ullam
-                    temporibus. Magni sequi sunt temporibus ab a nobis quo non,
-                    molestias sapiente dolorum repellendus obcaecati odit, dolor
-                    quae illo ratione, veniam autem id praesentium. Consectetur,
-                    totam asperiores expedita culpa doloribus nesciunt error
-                    architecto dolorum!
+                    Ich höre sehr viel Musik, fast bei jeder meiner Aktivitäten. Sei es
+                    Sport oder beim Lernen. Am meisten höre ich Rap und Rock. Meine
+                    Lieblings Künstler sind Eazy-E, Gza, MFDOOM, Rage against the machine und
+                    Metallica. Musik ist mir sehr wichtig. So kann ich mich entspannen und auf neue Ideen kommen.
+                    Es hilft mir auch sehr, mich zu konzentrieren wenn ich Hausaufgaben machen muss oder ähnliches.
+                
+                    <a href="https://open.spotify.com/user/nilsgilgen?si=ebba82a73ba54539">Spotify Profil</a>
+
                 </p>
+
             </section>
 
             <section>
-                <h2>Abschnitt mit Text und Bild</h2>
+                <h2></h2>
                 <div class="text-and-img">
                     <!-- Hier wird eine Klasse verwendet, die in CSS angibt wie das
                     Element gestaltet werden soll. Es werden hier 2 Kinder-Elemente
                     verwendet, damit wir den Effekt von einem Text neben einem Bild
                     einfach hinbekommen können. -->
                     <div class="text">
-                        Hier ist eine Beschreibung von dem Bild, oder einfach
-                        Text der dazu passen könnte.
+                        Das bin ich. Früher hatte ich noch kurze Haare.
                     </div>
-                    <div class="image">
-                        <img src="/img/mountains.png" alt="" />
-                    </div>
+
+                <div class="image">
+                    <img src="/img/Bildvonmir.png" />
                 </div>
             </section>
         </main>
 
         <footer>
-            <!-- Hier kommt die Fusszeile der Webseite -->
+            
         </footer>
     </body>
 </html>
